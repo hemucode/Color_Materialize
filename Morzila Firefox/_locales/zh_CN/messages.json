@@ -1,8 +1,8 @@
 {
-   "application_description": {
-      "message": "重新启用Web Developer™的右键"
+   "app_description": {
+      "message": "适用于您的浏览器的最智能的 HEX 或 RGB 颜色代码选择器工具。"
    },
-   "application_title": {
-      "message": "为Web Developer™启用右键"
+   "app_name": {
+      "message": "Color Materialize - 颜色选择"
    }
 }

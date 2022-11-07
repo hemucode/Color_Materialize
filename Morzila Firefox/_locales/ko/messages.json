@@ -1,8 +1,8 @@
 {
-   "application_description": {
-      "message": "Web Developer™에서 오른쪽 클릭을 다시 사용하도록 설정"
+   "app_description": {
+      "message": "브라우저를 위한 가장 스마트한 HEX 또는 RGB 색상 코드 선택 도구입니다."
    },
-   "application_title": {
-      "message": "Web Developer™에 대해 오른쪽 클릭 활성화"
+   "app_name": {
+      "message": "Color Materialize - 색상 선택"
    }
 }

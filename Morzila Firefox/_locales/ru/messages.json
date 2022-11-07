@@ -1,8 +1,8 @@
 {
-   "application_description": {
-      "message": "Повторно включите правый клик для Web Developer™"
+   "app_description": {
+      "message": "Самый умный инструмент выбора цветового кода HEX или RGB для вашего браузера."
    },
-   "application_title": {
-      "message": "Включить правый клик для Web Developer™"
+   "app_name": {
+      "message": "Color Materialize - выбор цвета"
    }
 }

@@ -1,8 +1,8 @@
 {
-   "application_description": {
-      "message": "Web Developer™の右クリックを再度有効にします"
+   "app_description": {
+      "message": "お使いのブラウザ用の最もスマートな HEX または RGB カラー コード ピッカー ツール。"
    },
-   "application_title": {
-      "message": "Web Developer™の右クリックを有効にする"
+   "app_name": {
+      "message": "Color Materialize - カラーピック"
    }
 }

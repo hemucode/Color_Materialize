@@ -1,8 +1,8 @@
 {
-   "application_description": {
-      "message": "Vuelva a habilitar el clic derecho para Web Developer™"
+   "app_description": {
+      "message": "Smartest HEX or RGB color code picker tool for your browser."
    },
-   "application_title": {
-      "message": "Habilitar el botón derecho para Web Developer™"
+   "app_name": {
+      "message": "Color Materialize - color pick"
    }
 }
