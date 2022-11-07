@@ -4,14 +4,15 @@
 
 html,
 body {
-  font-family: "BlinkMacSystemFont", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   color: #fff;
   font-size: 12px;
   margin: 0;
   overflow: hidden;
-  height: 100%;
+  height: 410px;
 }
-
+html,
+body,
 #container {
   width: 370px;
   max-width: 370px;
@@ -78,7 +79,7 @@ body {
   height: 30px;
   font-size: 18px;
   padding: 2px;
-  border-radius: 5px 5px 0 0;
+  /*border-radius: 5px 5px 0 0;*/
 }
 
 #controls .col {

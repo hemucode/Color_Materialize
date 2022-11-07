@@ -1,53 +1,54 @@
-
-
 <!DOCTYPE html>
 <html lang="en" >
-
 <head>
- <meta charset="UTF-8">
-  <title>Drum Pad</title>
-  <link rel="stylesheet" href="index.css"> 
+<meta charset="UTF-8">
+<title>Materialette</title> 
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="index.css"> 
 </head>
 <body translate="no" >
-  <h1>DRUM PAD</h1>
+  <div class="flow">
+  <!-- <header>
+  <svg height="80px" viewBox="0 0 100 100" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      circle { opacity: 0.8; }
+    </style>
+    <circle cx="32" cy="50" r="30" fill="#4DD0E1"></circle>
+    <circle cx="68" cy="34" r="30" fill="#FFF04D"></circle>
+    <circle cx="60" cy="68" r="30" fill="#F84D8A"></circle>
+  </svg>
+    <h1>Color Materialize</h1>
+  </header> -->
+  <div id="container">
+    <section id="controls">
+      <div class="col">
+        <input id="pin-state" type="checkbox" />
+       <!--  <label id="pin" for="pin-state" class="clickable hint--bottom-left" aria-label="Pin to keep visible"><i class="fa fa-thumb-tack"></i></label>
+        <div id="hide" class="clickable hint--bottom" aria-label="Hide"><i class="fa fa-close"></i></div>
+        <div id="close" class="clickable hint--bottom-left" aria-label="Quit"><i class="fa fa-power-off"></i></div> -->
+      </div>
+      <div class="col">
+        <div id="mode-selector" class="clickable hint--bottom" aria-label="Toggle modes">
+          <div id="current-output">hex</div>
+          <div><i class="fa fa-retweet"></i></div>
+        </div>
+      </div>
+    </section>
+    <div id="key">
+      <div class="color" style="background-color:#FFF; color: #000;" data-series=""> white </div>
+      <div class="color" style="background-color:#000; color: #FFF" data-series=""> black </div>
+    </div>
 
-<div class="pad">
-  <div class="box pad-1" data-code="82">R</div>
-  <div class="box pad-2" data-code="84">T</div>
-  <div class="box pad-3" data-code="89">Y</div>
-  <div class="box pad-4" data-code="85">U</div>
-  
-  <div class="box pad-5" data-code="70">F</div>
-  <div class="box pad-6" data-code="71">G</div>
-  <div class="box pad-7" data-code="72">H</div>
-  <div class="box pad-8" data-code="74">J</div>
-  
-  <div class="box pad-9" data-code="86">V</div>
-  <div class="box pad-10" data-code="66">B</div>
-  <div class="box pad-11" data-code="78">N</div>
-  <div class="box pad-12" data-code="77">M</div>
+    <div id="tooltip" class="hidden">
+      Color
+    </div>
+    <textarea id="clipboard" readonly></textarea>
+  </div>
 </div>
-<!-- <div id="grids">
-    <div class="txtdiv">
-      <a href='#' target='_blank' class="youtube" title="YouTube">
-        <img class="info-icons yt id" src="../icons/svg/youtube.svg"> 
-      </a>
-    </div>
-    <div class="txtdiv">
-      <a href='#' target='_blank' class="facebook" title="Facebook">
-        <img class="info-icons fb id" src="../icons/svg/fb.svg"> 
-      </a>
-    </div>
-    <div class="txtdiv">
-      <a href='#' target='_blank'  class="website" title="Website">
-        <img class="info-icons net id" src="../icons/svg/network.svg"> 
-      </a>
-    </div>
-</div> -->
-
-  <script src='jquery.min.js'></script>
-  <script src='index.js'></script>
+<script src='jquery.min.js'></script>
+<script src='index.js'></script>
 </body>
-
 </html>
+ 
+
  
